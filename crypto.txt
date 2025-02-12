@@ -1,0 +1,22 @@
+Common crypto addresses and keys:
+
+Bitcoin, Doge, Litecoin, Dash, some others:
+[13DLMX][a-km-zA-HJ-NP-Z1-9]{25,34}
+
+Bitcoin (Native Segwit addresses)
+bc1[a-km-zA-HJ-NP-Z1-9]{39,59}
+
+Ethereum, others, some private keys:
+0x[a-fA-F0-9]{40}
+
+Monero:
+4[0-9AB][1-9A-HJ-NP-Za-km-z]{93}
+
+Neo, Ripple:
+[Ar][0-9a-zA-Z]{33}
+
+WIF format Private Key:
+((K[w-z].)|(L[1-5].)|(5[H-K])).{48,49}
+
+Extended Private Key format:
+[xyz]prv[A-HJ-NP-Za-km-z1-9]{107}
